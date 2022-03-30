@@ -64,6 +64,7 @@ repository:
 
 * libtool; 提供libtoolize给autogen.sh调用 
 * intltool; gettext会调用，不然报autopoint错误
+以上两处也可能是没有正式安装gcc导致，后面出现在configure时找不到regex.h的错误，安装了一下gcc-g++，就好了。
 
 In cases where the versions of the above tools matter, the file
 configure.ac will specify the minimum required versions.
