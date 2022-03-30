@@ -62,6 +62,9 @@ repository:
   are included by automake.
 * GNU indent; for indenting the flex source the way we want it done
 
+* libtool; 提供libtoolize给autogen.sh调用 
+* intltool; gettext会调用，不然报autopoint错误
+
 In cases where the versions of the above tools matter, the file
 configure.ac will specify the minimum required versions.
 
